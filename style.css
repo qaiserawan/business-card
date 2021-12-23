@@ -1,0 +1,37 @@
+.main-container{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 370px;
+}
+
+
+.card-right>img{
+    border-radius: 50%;
+}
+
+.card-left{
+    line-height: 1px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.card{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 2px 2px 43px 12px rgba(0,0,0,0.58);
+}
+
+.card>h2{
+    display: flex;
+    justify-content: center;
+}
